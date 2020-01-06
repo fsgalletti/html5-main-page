@@ -1,0 +1,103 @@
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+body {
+    background: url(images/bkg-pattern-1080.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: center center;
+    
+    background-color: #336;
+}
+#container {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    
+    padding-right: 50%;
+    padding-left: 50%;
+}
+#avatar{
+	margin-right: -4%;
+    margin-left: -4%;
+
+    width: 8%;
+
+    background-color: grey;
+    border: 2px solid ivory;
+    border-radius: 50%;
+}
+#bio {
+	margin-right: -50%;
+	margin-left: -50%;
+
+	width: 100%;
+
+	text-align: center;
+	color: ivory;
+	text-decoration: none;
+}
+#bio, .linkBox{
+	font-family: Verdana;
+	text-shadow: 1px 1px 1px black;
+}
+.linkBox {
+	/* Margin decrease for centering */
+	margin-right: -16%;
+	margin-left: -16%;
+                
+	margin-bottom: 8px;
+
+    width: 32%;
+    height: 40px;
+
+    border: 2px solid ivory;
+
+    background-color: rgba(0, 0, 0, 0.22);
+
+    cursor: pointer;
+}
+.linkBox:hover {
+	background-color: rgba(255, 255, 255, 0.8);
+	background-image: url(images/button-hover.jpg);
+	border-color: orange;
+}
+.linkBox:hover a {
+	color: orange;
+}
+.linkFill {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+
+	/*** TEXT ***/
+	text-align: center;
+	color: ivory;
+	text-decoration: none;
+
+	line-height: 40px;
+}
+            
+/*** MOBILE ***/
+@media only screen and (max-width:620px) {	
+	body {
+		background: url(images/bkg-pattern-620.jpg);
+		background-size: 100% auto;
+		background-repeat: repeat;
+		background-position: center center;
+	}
+	#avatar {
+		margin-right: -16%;
+		margin-left: -16%;
+	
+		width:32%;
+	}
+	.linkBox {
+		/*margin decrease for centering*/
+		margin-right: -48%;
+		margin-left: -48%;
+
+		width:96%;
+	}
+}

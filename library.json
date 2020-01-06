@@ -1,0 +1,19 @@
+[
+      {
+        "title" :   "Instagram",
+        "link"  :   "https://www.instagram.com/beethovenclassics/",
+        "hidden":   false
+        }, {
+        "title" :   "Facebook",
+        "link"  :   "https://www.facebook.com/BeethovenOfficialPage/",
+        "hidden":   false
+        }, {
+        "title" :   "YouTube",
+        "link"  :   "https://www.youtube.com/channel/UCnsAooIr-Dsr8zJOCSadQcA",
+        "hidden":   false
+        }, {
+        "title" :   "* Sheet music *",
+        "link"  :   "https://imslp.org/wiki/Category:Beethoven%2C_Ludwig_van",
+        "hidden":   false
+        }
+]
