@@ -1,0 +1,43 @@
+{
+    "title" : "Beethoven Music Official",
+    "bio" : "@beethoven",
+    
+    "bkg" : {
+        "hidden" : false,
+        "pc" : "bkg-pattern-1080.jpg",
+        "mobile" : "bkg-pattern-620.jpg"
+    },
+    "images" : {
+        "icon" : "icon.png",
+        "avatar" : "avatar.jpg",
+        "buttonHover" : "button-hover.jpg"
+    },
+    "colors" : {
+        "border" : "ivory",
+        "borderHover" : "violet",
+    
+        "text" : "ivory",
+        "textHover" : "violet",
+        
+        "bkg" : "#336"
+    },
+    "links" : [
+        {
+        "title" :   "Instagram",
+        "link"  :   "https://www.instagram.com/beethovenclassics/",
+        "hidden":   false
+        }, {
+        "title" :   "Facebook",
+        "link"  :   "https://www.facebook.com/BeethovenOfficialPage/",
+        "hidden":   false
+        }, {
+        "title" :   "YouTube",
+        "link"  :   "https://www.youtube.com/channel/UCnsAooIr-Dsr8zJOCSadQcA",
+        "hidden":   false
+        }, {
+        "title" :   "* Sheet music *",
+        "link"  :   "https://imslp.org/wiki/Category:Beethoven%2C_Ludwig_van",
+        "hidden":   false
+        }
+    ]
+    }
